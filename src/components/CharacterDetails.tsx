@@ -42,6 +42,21 @@ const CharacterDetails = () => {
         <p>Birthday: {data?.birth_year}</p>
         <p>Height: {data?.height}</p>
         <p>Eye color: {data?.eye_color}</p>
+        <p>Birthday: {data?.birth_year}</p>
+        <p>Height: {data?.height}</p>
+        <p>Eye color: {data?.eye_color}</p>
+        <p>Film: {data?.film}</p>
+        <p>Gender: {data?.gender}</p>
+        <p>Hair Color: {data?.hair_color}</p>
+        <p>Height: {data?.height}</p>
+        <p>Home World: {data?.home_world}</p>
+        <p>Mass: {data?.mass}</p>
+        <p>Name: {data?.name}</p>
+        <p>Skin Color: {data?.skin_color}</p>
+        <p>Species: {data?.species}</p>
+        <p>Starships: {data?.starships}</p>
+        <p>URL: {data?.url}</p>
+        <p>Vehicles: {data?.vehicles}</p>
       </div>
     );
   }
