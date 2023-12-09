@@ -7,7 +7,7 @@ const Recents = () => {
 
   return (
     <main className="mt-[4rem] px-4 w-[1500px] max-w-[90%] mx-auto min-h-screen">
-      <h1 className="font-[700] text-[1.3rem]">Last Visited</h1>
+      <h1 className="font-[700] text-[1.3rem]">3 Last Visited</h1>
       {latestVisited?.length === 0 ? (
         <div className="flex items-center justify-center">
           <p className="font-[500] text-[25px] mt-5">

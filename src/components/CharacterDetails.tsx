@@ -22,7 +22,7 @@ const CharacterDetails = () => {
   if (!params || !params.id || isError) {
     content = (
       <div className="h-full flex items-center justify-center">
-        <p className="font-[500] text-[30px]">No Charater found</p>
+        <p className="font-[500] text-[30px]">No Character found</p>
       </div>
     );
   }
@@ -71,6 +71,13 @@ const CharacterDetails = () => {
         <span>Go Back</span>
       </button>
       {content}
+      <button
+        className="bg-blue-400 flex gap-3 items-center p-2 rounded-[5px] text-white text-[1.2rem]"
+        onClick={handleGoBack}
+      >
+        <FaLongArrowAltLeft />
+        <span>Go Back</span>
+      </button>
     </main>
   );
 };
