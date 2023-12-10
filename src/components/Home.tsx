@@ -2,8 +2,8 @@ import Carousel from "./Carousel";
 import SearchField from "./SearchField";
 
 const images = [
-  "/images/Star-wars-logo-new-tall.png",
   "/images/hero.jpg",
+  "/images/Star-wars-logo-new-tall.png",
   "/images/image.jpeg",
 ];
 
