@@ -13,7 +13,7 @@ export const fetchCharacter = async (page?: string, search?: string) => {
   const res = await fetch(url);
 
   if (!res.ok) {
-    throw new Error("An Error Occur whilw fetching Charaters");
+    throw new Error("An Error Occur while fetching Characters");
   }
   const data = await res.json();
   return data;
@@ -22,7 +22,7 @@ export const fetchCharacter = async (page?: string, search?: string) => {
 export const fetchCharacterItem = async (id: string) => {
   const res = await fetch(`https://swapi.dev/api/people/${id}`);
   if (!res.ok) {
-    throw new Error("An Error Occur whilw fetching Charater");
+    throw new Error("An Error Occur while fetching Character");
   }
   const data = await res.json();
   return data;
