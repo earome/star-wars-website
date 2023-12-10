@@ -2,8 +2,8 @@ import { ILatestVisited, IPerson } from "@/interface/CharacterInterface";
 import { create } from "zustand";
 
 const useLatestVisited = create<ILatestVisited>((set, get) => {
-//   const storedValue = window.localStorage.getItem("recents");
-//   const initialVisited = storedValue ? JSON.parse(storedValue) : [];
+  //   const storedValue = window.localStorage.getItem("recents");
+  //   const initialVisited = storedValue ? JSON.parse(storedValue) : [];
   return {
     latestVisited: [],
     addLatestVisited: (value: IPerson) =>

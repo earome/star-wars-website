@@ -38,7 +38,9 @@ const CharacterDetails = () => {
   if (!isPending && !isError) {
     content = (
       <div className="w-[500px] max-w-[90%] p-6 mt-[4rem] border rounded-[7px] mx-auto bg-[rgba(0,0,0,0.2)]">
-        <h1 className="font[700] text-[30px]"><strong>{data?.name}</strong></h1>
+        <h1 className="font[700] text-[30px]">
+          <strong>{data?.name}</strong>
+        </h1>
         <p>Birthday: {data?.birth_year}</p>
         <p>Height: {data?.height}</p>
         <p>Eye color: {data?.eye_color}</p>
