@@ -16,7 +16,7 @@ const Home = () => {
           <Carousel images={images} />
         </div>
       </header>
-      <main></main>
+      <main>API request to the Star Wars API using People resource</main>
     </>
   );
 };
