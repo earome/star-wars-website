@@ -9,7 +9,7 @@ import SearchField from "@/components/SearchField";
 export const navList = [
   { name: "Home", path: PATHS.root },
   { name: "Lister", path: PATHS.lister.root },
-  { name: "Recents", path: PATHS.recents.root },
+  { name: "3 Recents", path: PATHS.recents.root },
 ];
 
 const Navbar = () => {
