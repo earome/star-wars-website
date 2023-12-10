@@ -11,7 +11,7 @@ const Recents = () => {
       {latestVisited?.length === 0 ? (
         <div className="flex items-center justify-center">
           <p className="font-[500] text-[25px] mt-5">
-            Please Select a Character
+            Please View 3 People from Lister Menu in order to display here
           </p>
         </div>
       ) : (
